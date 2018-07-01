@@ -460,11 +460,11 @@ h3.section-title + h3.section-title {
 }
 
 h4.section-sub-title + p.mc__paragraph {
-  margin-top: 25px;
+  margin-top: 20px;
 }
 @media (max-width: 768px) {
   h4.section-sub-title + p.mc__paragraph {
-    margin-top: 10px;
+    margin-top: 8px;
   }
 }
 @media (max-width: 640px) {
