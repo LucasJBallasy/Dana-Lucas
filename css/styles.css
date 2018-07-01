@@ -198,7 +198,7 @@ body {
     margin-top: 30px;
   }
   .date-time-location h3.section-title {
-    margin-bottom: 30px;
+    margin-bottom: 35px;
   }
   .date-time-location .dt__time {
     max-width: 180px;
@@ -207,11 +207,12 @@ body {
 
 .dt__location__buttons {
   margin-top: 30px;
-  margin-bottom: 90px;
+  margin-bottom: 65px;
 }
+
 @media (max-width: 640px) {
   .dt__location__buttons {
-    margin: 10px auto 55px auto;
+    margin: 10px auto 35px auto;
   }
 }
 
@@ -269,13 +270,13 @@ body {
 }
 @media (max-width: 768px) {
   .mc__1-col-image {
-    margin-bottom: 30px;
+    margin-bottom: 35px;
   }
 }
 @media (max-width: 640px) {
   .mc__1-col-image {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 }
 
@@ -374,8 +375,8 @@ h3.section-title + .mc__section {
 @media (max-width: 640px) {
   .btn-2 {
     display: block;
-    width: auto;
-    margin: 15px 0;
+    width: 65%;
+    margin: 15px auto;
   }
 }
 
@@ -440,7 +441,7 @@ h2.sub-title + h3.section-title {
   margin-top: 0;
 }
 .label + h3.section-title {
-  margin-top: 20px;
+  margin-top: 15px;
 }
 h3.section-title + h3.section-title {
   margin: 0;
