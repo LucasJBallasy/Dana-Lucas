@@ -243,8 +243,6 @@ p{
 }
 @media (max-width: 640px) {
   .main-content .mc__section {
-    margin-left: 25px;
-    margin-right: 25px;
     margin-bottom: 40px;
   }
   .main-content .mc__section:last-child {
@@ -304,7 +302,7 @@ h3.section-title + .mc__section {
 }
 @media (max-width: 640px) {
   .main-content .mc__paragraph {
-    max-width: 320px;
+    max-width: 85%;
     width: 100%;
   }
 }
