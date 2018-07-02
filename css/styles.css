@@ -30,6 +30,10 @@ body {
   }
 }
 
+p{
+  text-align:left;
+}
+
 .page-wrap {
   display: block;
   position: relative;
@@ -201,7 +205,7 @@ body {
     margin-bottom: 35px;
   }
   .date-time-location .dt__time {
-    max-width: 180px;
+    max-width: 300px;
   }
 }
 
