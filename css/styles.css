@@ -297,7 +297,7 @@ h3 a{
 }
 @media (max-width: 640px) {
   .mc__1-col-image {
-    width: 100%;
+    width: 94%;
     margin: 25px auto 20px;
   }
 }
