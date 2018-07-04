@@ -34,6 +34,16 @@ p{
   text-align:left;
 }
 
+p a{
+  color:#7BA8B3;
+}
+
+p a:hover{
+  opacity:.5;
+  -webkit-transition: .25s ease;
+  transition: .25s ease;
+}
+
 p.small-text{
   text-align:center;
 }
@@ -167,12 +177,12 @@ h3 a{
 
 .main-hero__ornament {
   max-width: 75px;
-  margin: 30px auto 0 auto;
+  margin: 30px auto 45px;
 }
 @media (max-width: 640px) {
   .main-hero__ornament {
     max-width: 65px;
-    margin: 20px auto 0 auto;
+    margin: 20px auto;
   }
 }
 
@@ -182,7 +192,8 @@ h3 a{
 
 .date-time-location .dt__date h2.sub-title {
   max-width: 475px;
-  margin: 65px auto 20px auto;
+  margin: 10px auto 20px;
+  display: inline-block;
 }
 @media (max-width: 640px) {
   .date-time-location .dt__date h2.sub-title {
@@ -275,19 +286,19 @@ h3 a{
 }
 
 .mc__1-col-image {
-  width: 90%;
-  max-width: 645px;
-  margin-bottom: 40px;
+  width:100%;
+  max-width: 650px;
+  margin: 35px auto 25px;
 }
 @media (max-width: 768px) {
   .mc__1-col-image {
-    margin-bottom: 35px;
+  margin: 30px auto;
   }
 }
 @media (max-width: 640px) {
   .mc__1-col-image {
     width: 100%;
-    margin-bottom: 30px;
+    margin: 25px auto 20px;
   }
 }
 
@@ -325,6 +336,11 @@ h3.section-title + .mc__section {
     max-width: 115px;
     margin: 0 auto 35px auto;
   }
+}
+
+.footer-icon:hover{
+  transition:5s ease;
+  transform:rotate(360deg);
 }
 
 .made-by {
