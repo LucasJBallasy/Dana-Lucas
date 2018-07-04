@@ -36,12 +36,12 @@ p{
 
 p a{
   color:#7BA8B3;
+  -webkit-transition: .25s ease;
+  transition: .25s ease;
 }
 
 p a:hover{
   opacity:.5;
-  -webkit-transition: .25s ease;
-  transition: .25s ease;
 }
 
 p.small-text{
