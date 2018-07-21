@@ -185,6 +185,11 @@ h3 a{
   max-width: 75px;
   margin: 30px auto 45px;
 }
+
+.ornament{
+  max-width: 75px;
+}
+
 @media (max-width: 640px) {
   .main-hero__ornament {
     max-width: 65px;
